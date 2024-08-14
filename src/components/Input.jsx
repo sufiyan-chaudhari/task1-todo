@@ -137,7 +137,6 @@ const Input = () => {
           </div>
         )}
         <SwitchButton />
-        <FloatingButton />
       </form>
     </div>
   );

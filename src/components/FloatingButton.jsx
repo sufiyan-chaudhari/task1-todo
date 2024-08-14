@@ -1,3 +1,4 @@
+// App.jsx
 import React, { useState, useRef, useEffect } from "react";
 import { IoAdd } from "react-icons/io5";
 import Modal from "./Modal"; // Adjust path if necessary
@@ -10,8 +11,13 @@ const App = () => {
   const dispatch = useDispatch();
   const inputRef = useRef(null);
 
-  const openModal = () => setIsModalOpen(true);
+  const openModal = () => {
+    console.log("Opening modal");
+    setIsModalOpen(true);
+  };
+
   const closeModal = () => {
+    console.log("Closing modal");
     setIsModalOpen(false);
     setTodoInput(""); // Clear input on close
   };

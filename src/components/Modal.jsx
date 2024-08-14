@@ -10,7 +10,7 @@ const Modal = ({ isOpen, onRequestClose, children }) => {
     >
       <div
         className="relative bg-white dark:bg-gray-800 rounded-lg shadow-lg w-full max-w-md sm:max-w-sm md:max-w-lg p-6"
-        onClick={(e) => e.stopPropagation()} // Prevent click events from closing the modal
+        onClick={(e) => e.stopPropagation()} // Prevent clicks inside from closing the modal
       >
         {children}
       </div>

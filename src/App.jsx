@@ -28,6 +28,8 @@ function App() {
         </h1>
 
         <Input />
+        <FloatingButton />
+
         <TodoList />
       </div>
     </ThemeProvider>
