@@ -35,11 +35,11 @@ const TodoList = () => {
     <div className="w-[270px] sm:w-[500px] md:w-[720px] mb-20 mx-auto mt-6">
       {filteredTodos.length === 0 ? (
         <>
-          <div className="flex justify-center items-center h-[300px]">
+          <div className=" flex justify-center items-center h-[300px]">
             <img
-              src="https://res.cloudinary.com/dpadxxi3p/image/upload/v1723009215/IMG-20240807-WA0000_c0ctkp.jpg"
+              src="/Detective-check-footprint 1.png"
               alt="No todos"
-              className="object-cover w-full h-full"
+              className="img object-cover  h-full"
             />
           </div>
           <p className=" dark:text-white text-black text-center  font-semibold text-lg mt-4">

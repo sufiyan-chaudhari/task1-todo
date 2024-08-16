@@ -63,7 +63,7 @@ const TodoItem = ({ todo, onToggle, onEdit, onDelete }) => {
             onChange={handleEditChange}
             onBlur={handleEditBlur}
             onKeyDown={handleEditKeyDown}
-            className="border p-2 rounded text-black dark:text-white bg-white dark:bg-gray-800 border-black dark:border-gray-600 text-xl" // Increased text size
+            className="w-[200px] sm:w-full border p-2 rounded text-black dark:text-white bg-white dark:bg-gray-800 border-black dark:border-gray-600 text-xl" // Increased text size
           />
         ) : (
           <span
